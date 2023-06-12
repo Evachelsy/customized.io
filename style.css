@@ -1,54 +1,20 @@
-* {
-  margin: 0;
-  padding: 5;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-  body {
-    background-image: url("path/to/your/image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+body {
+  margin: 20px;
 }
 
-/* Style the header */
-header {
-  background-color: #000000;
-  padding: 10px;
-  color: #000000;
-  font-family:Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif
+h1 {
+  font-size: 80px;
+  font-family: "voga", sans-serif;
+  margin-bottom: 6px;
 }
 
-/* Style the navigation menu */
-nav ul {
-  display: flex;
+h2 {
+  font-size: 19px;
+  font-family: "montserrat", serif;
+  color: #888585;
+  margin-bottom: 50px;
 }
 
-nav ul li {
-  margin-right: 180px;
-}
-
-nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f0f0f0;
-  text-align: center;
-  padding: 10px 0;
-}
 
   
   
