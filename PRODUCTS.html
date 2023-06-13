@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>PRODUCTS</title>
-    </head>
-    <body bgcolor="#7FB3D5">
-        <h1><img src="Cheeva 2.jpg" width="400"
-            alt="Birthday Cards" title="Birthday Cards"></h1>
-            <h1><img src="Cheeva 8.jpg" width="400"
-                alt="Congratulations Cards" title="Congratulations Cards"></h1>
-            <h1><img src="Cheeva 6.jpg" width="400"
-                    alt="Personal Cards" title="Personal Cards"></h1>
-            
+<head>
+    <title>PRODUCTS</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
 
-                        <li><a href="ABOUT US.html">ABOUT US</a></li>
-                        <li><a href="SHOP.html">SHOP</a></li>
-                        <li><a href="CONTACT US.html">CONTACT US</a></li>
-                        
+        .image-container img {
+            width: 400px;
+            margin-right: 20px;
+        }
 
-        <a href="index.html">HOME </a>   
+        .image-container img:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="ABOUT US.html">ABOUT US</a></li>
+        <li><a href="SHOP.html">SHOP</a></li>
+        <li><a href="CONTACT US.html">CONTACT US</a></li>
+    </ul>
 
+    <a href="index.html">HOME </a>   
+
+    <div class="image-container">
+        <img src="Cheeva 2.jpg" alt="Birthday Cards" title="Birthday Cards">
+        <img src="Cheeva 8.jpg" alt="Congratulations Cards" title="Congratulations Cards">
+        <img src="Cheeva 6.jpg" alt="Personal Cards" title="Personal Cards">
+    </div>
 
     <h1>This is a products page</h1>
     <p>This is a paragraph.</p>
- 
-    </body>
+</body>
 </html>
