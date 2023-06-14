@@ -9,8 +9,8 @@
         }
 
         .image-container img {
-            width: 250px;
-            margin-right: 1px;
+            width: 300px; /* Adjust the width as desired */
+            margin-right: -1px; /* Adjust the margin as desired */
         }
 
         .image-container img:last-child {
@@ -29,27 +29,37 @@
             font-family: Arial, sans-serif;
         }
         
-        .text-container p:last-child 
+        .text-container p:last-child {
+            font-family: Arial, sans-serif;
+        }
+        
+        /* CSS styles for color styling */
+        .section-title {
+            color: rgb(21, 5, 248);
+            font-size: smaller;
+        }
     </style>
 </head>
 <body>
     <ul>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="ABOUT US.html">ABOUT US</a></li>
         <li><a href="SIGN UP.html">SIGN UP</a></li>
         <li><a href="CONTACT US.html">CONTACT US</a></li>
     </ul>
 
-    <a href="index.html">HOME</a>
-
     <div class="image-container">
-        <img src="Cheeva 2.jpg" width="100" alt="Birthday Cards" title="Birthday Cards Ksh 500">
-        <img src="Cheeva 8.jpg" width="100" alt="Congratulations Cards" title="Congratulations Cards Ksh 400">
-        <img src="Cheeva 6.jpg" width="100" alt="Personal Cards" title="Personal Cards Ksh 300">
+        <img src="Cheeva 2.jpg" width="80" alt="Birthday Cards" title="Birthday Cards Ksh 500">
+        <img src="Cheeva 8.jpg" width="80" alt="Congratulations Cards" title="Congratulations Cards Ksh 400">
+        <img src="Cheeva 6.jpg" width="80" alt="Personal Cards" title="Personal Cards Ksh 300">
     </div>
 
-    <h1><span style="font-family: Arial, sans-serif;">Our customizable</span> All Occasion Cards</h1>
+    <div>
+        <h1><span class="section-title">Our Customizable All Occasion Cards</span></h1>
+    </div>
+
     <div class="text-container">
-        <p><span style="font-family: Arial, sans-serif;">SEASONAL CARDS:</span>
+        <p><span class="section-title">SEASONAL CARDS:</span>
             <select>
                 <option value="Christmas">Christmas</option>
                 <option value="Valentine's Day">Valentine's Day</option>
@@ -60,7 +70,7 @@
                 <option value="Easter">Easter</option>
             </select>
         </p>
-        <p><span style="font-family: Arial, sans-serif;">GREETINGS CARDS:</span>
+        <p><span class="section-title">GREETINGS CARDS:</span>
             <select>
                 <option value="Birthday">Birthday</option>
                 <option value="Anniversary">Anniversary</option>
@@ -87,6 +97,7 @@
     </div>
 </body>
 </html>
+
 
 
 
